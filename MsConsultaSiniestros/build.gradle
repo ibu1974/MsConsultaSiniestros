@@ -23,6 +23,10 @@ buildscript {
 }
 
 plugins {
+	id 'java'
+	id 'jacoco'
+	id 'com.github.kt3k.coveralls' version '2.6.3'
+	id 'checkstyle'
  	id "org.sonarqube" version "2.8"
 }
 
