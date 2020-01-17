@@ -32,8 +32,8 @@ group = 'mx.com.gnp.service.tools'
 apply plugin: 'net.researchgate.release'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
-apply from: "${rootDir}/jacoco.gradle"
-apply from: "${rootDir}/artifactPublication.gradle"
+//apply from: "${rootDir}/jacoco.gradle"
+//apply from: "${rootDir}/artifactPublication.gradle"
 
 
 
