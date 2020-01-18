@@ -7,7 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.server.ResponseStatusException;
 
 
-// TODO: Auto-generated Javadoc
+
 /**
  * The Class ExceptionEot.
  */

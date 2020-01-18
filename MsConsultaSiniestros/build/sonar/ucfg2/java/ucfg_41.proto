@@ -1,20 +1,16 @@
 
-Jmx.com.gnp.plus.consultasinies.model.ResponseSiniestros#getResponseCode()Iå
-Å/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/model/ResponseSiniestros.java" "(!"1*≈
-1å
-Å/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/model/ResponseSiniestros.java#	 #(í
-è
-å
-Å/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/model/ResponseSiniestros.java#	 #()
-%0#org.springframework.http.HttpStatus"__id*M*K9
-7mx.com.gnp.plus.consultasinies.model.ResponseSiniestros"
-responseCodeÅ˛
-å
-Å/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/model/ResponseSiniestros.java#	 #(	
-%1int",org.springframework.http.HttpStatus#value()I*+
-)
-%0#org.springframework.http.HttpStatus2value()"ó
-å
-Å/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/model/ResponseSiniestros.java# #(
-""B;9
-7mx.com.gnp.plus.consultasinies.model.ResponseSiniestros
+Smx.com.gnp.plus.consultasinies.model.EntradaResponse#getMensaje()Ljava/lang/String;à
+~/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/model/EntradaResponse.java ("1*¨
+1à
+~/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/model/EntradaResponse.java	 (Û
+
+à
+~/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/model/EntradaResponse.java	 (
+%0java.lang.String"__id*E*C6
+4mx.com.gnp.plus.consultasinies.model.EntradaResponse"	
+mensaje"•
+à
+~/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/model/EntradaResponse.java (
+
+%0java.lang.StringB86
+4mx.com.gnp.plus.consultasinies.model.EntradaResponse

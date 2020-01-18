@@ -1,87 +1,100 @@
 
-…mx.com.gnp.plus.consultasinies.services.TransaccionInfoServiceImpl#callKsilml06(Lgnp/si/servidor/Ksilil06;)Lgnp/si/servidor/Ksilvl06;—
-Œ/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/services/TransaccionInfoServiceImpl.java$ $(#"paramAnnotations*‘
-2—
-Œ/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/services/TransaccionInfoServiceImpl.java* *(,ì
-é
-—
-Œ/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/services/TransaccionInfoServiceImpl.java* *(,%
-	resultadognp.si.servidor.Ksilvl06"__id* 
+¢mx.com.gnp.plus.consultasinies.utils.Mappers#consultaSiniestrosRequest(Lmx/com/gnp/plus/consultasinies/model/ConsultaSiniestrosRequest;)Lgnp/si/servidor/Ksilil06;€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java, ,(1"1*™"
+1€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java- -(»
+¸
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java- -(%
+	respuestagnp.si.servidor.Ksilil06"__id*
+""À½
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java. .(
+%0gnp.si.servidor.Ksilil06"gnp.si.servidor.Ksilil06Ò
+Ï
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java. .(
+%1""gnp.si.servidor.Ksilil06#<init>()V* 
 
-%5gnp.si.servidor.Ksilvl06*
-1*Ï
-8—
-Œ/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/services/TransaccionInfoServiceImpl.java* *(ª§
-—
-Œ/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/services/TransaccionInfoServiceImpl.java* *(,
-%5gnp.si.servidor.Ksilvl06"egnp.si.servidor.ConsultaSiniestrosStub#Ksilml06(Lgnp/si/servidor/Ksilil06;)Lgnp/si/servidor/Ksilvl06;*4
-2
-servidor&gnp.si.servidor.ConsultaSiniestrosStub*(
-&
+%0gnp.si.servidor.Ksilil06Õ
+Ò
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java. .(%
+	respuestagnp.si.servidor.Ksilil06"__id* 
+
+%0gnp.si.servidor.Ksilil06ÝÚ
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java/ /(0
+%2java.lang.String"^mx.com.gnp.plus.consultasinies.model.ConsultaSiniestrosRequest#getCdnumpol()Ljava/lang/String;*N
+L
 
-mensajeIdagnp.si.servidor.Ksilil062$Ksilml06(Lgnp/si/servidor/Ksilil06;)*
-2*™
-9—
-Œ/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/services/TransaccionInfoServiceImpl.java%$ %(@óð
-—
-Œ/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/services/TransaccionInfoServiceImpl.java%( %(>,
-%0&gnp.si.servidor.ConsultaSiniestrosStub"&gnp.si.servidor.ConsultaSiniestrosStub…
-‚
-—
-Œ/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/services/TransaccionInfoServiceImpl.java%$ %(@
-%1"0gnp.si.servidor.ConsultaSiniestrosStub#<init>()V*.
-,
-%0&gnp.si.servidor.ConsultaSiniestrosStub‡
-„
-—
-Œ/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/services/TransaccionInfoServiceImpl.java% %(A2
-servidor&gnp.si.servidor.ConsultaSiniestrosStub"__id*.
-,
-%0&gnp.si.servidor.ConsultaSiniestrosStubÒ
-Ï
-—
-Œ/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/services/TransaccionInfoServiceImpl.java& &(%
-	resultadognp.si.servidor.Ksilvl06"__id*
-""Ò
-Ï
-—
-Œ/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/services/TransaccionInfoServiceImpl.java' '(%
-%2org.apache.logging.log4j.Logger"__id*
-""Â¿
-—
-Œ/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/services/TransaccionInfoServiceImpl.java' '(#
+msgEntrada>mx.com.gnp.plus.consultasinies.model.ConsultaSiniestrosRequest2getCdnumpol()±®
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java/ /(1
 
-%3void"9org.apache.logging.log4j.Logger#info(Ljava/lang/String;)V*'
+%3void"9gnp.si.servidor.Ksilil06#setCdnumpol(Ljava/lang/String;)V*'
 %
-%2org.apache.logging.log4j.Logger*
-llamando callKsilml062info(Ljava/lang/String;)*
-8*ƒ
-paramAnnotations—
-Œ/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/services/TransaccionInfoServiceImpl.java$# $(>ñ
-î
-—
-Œ/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/services/TransaccionInfoServiceImpl.java# #(
-
-%4"
-__annotate*
-java.lang.Override*(
-&
+	respuestagnp.si.servidor.Ksilil06*
+
+%2java.lang.String2setCdnumpol(Ljava/lang/String;)ÝÚ
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java0 0(0
+%4java.lang.String"^mx.com.gnp.plus.consultasinies.model.ConsultaSiniestrosRequest#getCdtipusu()Ljava/lang/String;*N
+L
 
-mensajeIdagnp.si.servidor.Ksilil06Û
-Ø
-—
-Œ/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/services/TransaccionInfoServiceImpl.java$3 $(=&
+msgEntrada>mx.com.gnp.plus.consultasinies.model.ConsultaSiniestrosRequest2getCdtipusu()±®
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java0 0(1
 
-mensajeIdagnp.si.servidor.Ksilil06"__annotation*
-
-%4*
-9*ã
-1—
-Œ/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/services/TransaccionInfoServiceImpl.java0	 0("Ã
-—
-Œ/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/services/TransaccionInfoServiceImpl.java0 0('
+%5void"9gnp.si.servidor.Ksilil06#setCdtipusu(Ljava/lang/String;)V*'
 %
-	resultadognp.si.servidor.Ksilvl06:&
+	respuestagnp.si.servidor.Ksilil06*
+
+%4java.lang.String2setCdtipusu(Ljava/lang/String;)ÝÚ
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java1 1(0
+%6java.lang.String"^mx.com.gnp.plus.consultasinies.model.ConsultaSiniestrosRequest#getInsaneam()Ljava/lang/String;*N
+L
 
-mensajeIdagnp.si.servidor.Ksilil06BFD
-Bmx.com.gnp.plus.consultasinies.services.TransaccionInfoServiceImpl
+msgEntrada>mx.com.gnp.plus.consultasinies.model.ConsultaSiniestrosRequest2getInsaneam()±®
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java1 1(1
+
+%7void"9gnp.si.servidor.Ksilil06#setInsaneam(Ljava/lang/String;)V*'
+%
+	respuestagnp.si.servidor.Ksilil06*
+
+%6java.lang.String2setInsaneam(Ljava/lang/String;)¿¼
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java2 2(0	
+%8int"Mmx.com.gnp.plus.consultasinies.model.ConsultaSiniestrosRequest#getFeocusin()I*N
+L
+
+msgEntrada>mx.com.gnp.plus.consultasinies.model.ConsultaSiniestrosRequest2getFeocusin()‚ÿ
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java2 2(1
+
+%9void"(gnp.si.servidor.Ksilil06#setFeocusin(I)V*'
+%
+	respuestagnp.si.servidor.Ksilil06*
+	
+%8int2setFeocusin(I)åâ
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java3 3(91
+%10*gnp.ae.distribucion.AqCabeceraArquitectura"fgnp.ae.distribucion.AqMensajeIda#getCabeceraArquitectura()Lgnp/ae/distribucion/AqCabeceraArquitectura;*'
+%
+	respuestagnp.si.servidor.Ksilil062getCabeceraArquitectura()È
+Å
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java3 3(:
+%11void"omx.com.gnp.plus.consultasinies.utils.Mappers#complementaCabecera(Lgnp/ae/distribucion/AqCabeceraArquitectura;)V*"
+	!Unknown!*3
+1
+%10*gnp.ae.distribucion.AqCabeceraArquitectura"¬
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java4 4('
+%
+	respuestagnp.si.servidor.Ksilil06:L
+
+msgEntrada>mx.com.gnp.plus.consultasinies.model.ConsultaSiniestrosRequestB0".
+,mx.com.gnp.plus.consultasinies.utils.Mappers

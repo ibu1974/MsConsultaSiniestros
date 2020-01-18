@@ -1,26 +1,26 @@
 
 amx.com.gnp.plus.consultasinies.utils.Utils#getStackTrace(Ljava/lang/Exception;)Ljava/lang/String;~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java, ,(#"5*â
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java+ +(#"5*â
 
 3~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java1 1(â
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java0 0(â
 ß
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java1 1("
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java0 0("
 %11java.lang.StackTraceElement"
 __arrayGet*%
 #
 stjava.lang.StackTraceElement[]*
 ""ˆ…
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java1 1((
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java0 0((
 %12java.lang.String"8java.lang.StackTraceElement#toString()Ljava/lang/String;*$
 "
 %11java.lang.StackTraceElement2
 toString()Í
 Ê
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java1 1((
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java0 0((
 %13java.lang.String"__concat*
 
 \t at *
@@ -28,13 +28,13 @@ t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp
 %12java.lang.StringÉ
 Æ
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java1 1(/
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java0 0(/
 %14java.lang.String"__concat*
 
 %13java.lang.String*
 \nÈÅ
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java1 1(0
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java0 0(0
 %15java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
 
 sbjava.lang.StringBuilder*
@@ -43,18 +43,18 @@ t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp
 3
 1* 
 5~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java-' -(1œ
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java,' ,(1œ
 ™
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java-' -(1	
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java,' ,(1	
 %0int"__id*
 ""»¸
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java- -(&
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java, ,(&
 %1java.lang.StringBuilder"java.lang.StringBuilderÛ
 Ø
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java- -(2
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java, ,(2
 %2""java.lang.StringBuilder#<init>(I)V*
 
 %1java.lang.StringBuilder*
@@ -62,47 +62,47 @@ t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp
 %0intÉ
 Æ
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java- -(3
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java, ,(3
 sbjava.lang.StringBuilder"__id*
 
 %1java.lang.StringBuilder™–
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java. .(-#
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java- -(-#
 %3java.lang.StackTraceElement[]"Ajava.lang.Throwable#getStackTrace()[Ljava/lang/StackTraceElement;*
 
 exjava.lang.Exception2getStackTrace()Õ
 Ò
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java. .(.#
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java- -(.#
 stjava.lang.StackTraceElement[]"__id*%
 #
 %3java.lang.StackTraceElement[]ñî
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java/ /(
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java. .(
 %4java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
 
 exjava.lang.Exception2
 getClass()ìé
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java/ /(#
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java. .(#
 %5java.lang.String"+java.lang.Class#getName()Ljava/lang/String;*
 
 %4java.lang.Class2	getName()Ç
 Ä
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java/ /(*
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java. .(*
 %6java.lang.String"__concat*
 
 %5java.lang.String*
 : ú÷
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java/- /(<
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java.- .(<
 %7java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*
 
 exjava.lang.Exception2getMessage()Ù
 Ö
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java/ /(<
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java. .(<
 %8java.lang.String"__concat*
 
 %6java.lang.String*
@@ -110,13 +110,13 @@ t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp
 %7java.lang.StringÇ
 Ä
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java/ /(C
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java. .(C
 %9java.lang.String"__concat*
 
 %8java.lang.String*
 \nÇÄ
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java/ /(D
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java. .(D
 %10java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
 
 sbjava.lang.StringBuilder*
@@ -125,15 +125,15 @@ t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp
 3
 1*£
 1~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java3	 3(ÿü
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java2	 2(ÿü
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java3	 3(
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java2	 2(
 %16java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*
 
 sbjava.lang.StringBuilder2
 toString()"›
 ~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java3 3(
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Utils.java2 2(
 
 %16java.lang.String:
 exjava.lang.ExceptionB.",

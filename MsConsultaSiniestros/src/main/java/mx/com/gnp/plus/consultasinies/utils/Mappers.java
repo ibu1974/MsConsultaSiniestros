@@ -82,17 +82,18 @@ public final class Mappers {
 				respuesta.setResponseCode(HttpStatus.OK);
 			} else {
 				String msgError1="CDERROR: " + (msgVta.getCderror());
+				String msgError2="DSDAREG: " + msgVta.getDsarg1() + " " + 
+                        msgVta.getDsarg2()+ " " + 
+		                msgVta.getDsarg3();
+				String msgError3=						"Error en INFO, descripcion " + msgVta.getDsarg1() + " " + 
+                        msgVta.getDsarg2()+ " " + 
+                        msgVta.getDsarg3() + " : " + 
+                        msgVta.getCderror();
+
 				LOG.error("ERROR EN RESPUESTA DE INFO");
 				LOG.error(msgError1);
-				LOG.error("DSDAREG: " + msgVta.getDsarg1() + " " + 
-				                        msgVta.getDsarg2()+ " " + 
-						                msgVta.getDsarg3());
-				throw new ExceptionEot(
-						"Error en INFO, descripcion " + msgVta.getDsarg1() + " " + 
-				                                        msgVta.getDsarg2()+ " " + 
-								                        msgVta.getDsarg3() + " : " + 
-				                                        msgVta.getCderror(),
-						HttpStatus.BAD_REQUEST);
+				LOG.error(msgError2);
+				throw new ExceptionEot(msgError3,HttpStatus.BAD_REQUEST);
 			}
 		}
 

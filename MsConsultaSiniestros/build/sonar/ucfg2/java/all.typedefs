@@ -929,30 +929,7 @@ Mcombine(Lcom/google/common/base/Predicate;Lcom/google/common/base/Predicate;)≠
 extensions(Ljava/util/List;)}springfox.documentation.builders.ApiInfoBuilder#extensions(Ljava/util/List;)Lspringfox/documentation/builders/ApiInfoBuilder; 
 2contact(Lspringfox/documentation/service/Contact;)ìspringfox.documentation.builders.ApiInfoBuilder#contact(Lspringfox/documentation/service/Contact;)Lspringfox/documentation/builders/ApiInfoBuilder;k
 build()`springfox.documentation.builders.ApiInfoBuilder#build()Lspringfox/documentation/service/ApiInfo;õ
-license(Ljava/lang/String;)|springfox.documentation.builders.ApiInfoBuilder#license(Ljava/lang/String;)Lspringfox/documentation/builders/ApiInfoBuilder;û
->mx.com.gnp.plus.consultasinies.controller.HttpExceptionHandlerjava.lang.ObjectT
-<init>()Hmx.com.gnp.plus.consultasinies.controller.HttpExceptionHandler#<init>()VÛ
-WbadRequestDuplicatedRecipients(Lmx/com/gnp/plus/consultasinies/exception/ExceptionEot;)ómx.com.gnp.plus.consultasinies.controller.HttpExceptionHandler#badRequestDuplicatedRecipients(Lmx/com/gnp/plus/consultasinies/exception/ExceptionEot;)Vö
-java.lang.RuntimeExceptionjava.lang.Exception0
-<init>()$java.lang.RuntimeException#<init>()VT
-<init>(Ljava/lang/String;)6java.lang.RuntimeException#<init>(Ljava/lang/String;)V~
-/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Kjava.lang.RuntimeException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)VÇ
-1<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)Mjava.lang.RuntimeException#<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)VZ
-<init>(Ljava/lang/Throwable;)9java.lang.RuntimeException#<init>(Ljava/lang/Throwable;)V˘
-/org.springframework.core.NestedRuntimeExceptionjava.lang.RuntimeExceptionu
-getMostSpecificCause()[org.springframework.core.NestedRuntimeException#getMostSpecificCause()Ljava/lang/Throwable;i
-<init>(Ljava/lang/String;)Korg.springframework.core.NestedRuntimeException#<init>(Ljava/lang/String;)Vì
-/<init>(Ljava/lang/String;Ljava/lang/Throwable;)`org.springframework.core.NestedRuntimeException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)Ve
-getRootCause()Sorg.springframework.core.NestedRuntimeException#getRootCause()Ljava/lang/Throwable;^
-getMessage()Norg.springframework.core.NestedRuntimeException#getMessage()Ljava/lang/String;k
-contains(Ljava/lang/Class;)Lorg.springframework.core.NestedRuntimeException#contains(Ljava/lang/Class;)ZÎ
-6org.springframework.web.server.ResponseStatusException/org.springframework.core.NestedRuntimeExceptionñ
--<init>(Lorg/springframework/http/HttpStatus;)eorg.springframework.web.server.ResponseStatusException#<init>(Lorg/springframework/http/HttpStatus;)Vv
-getStatus()gorg.springframework.web.server.ResponseStatusException#getStatus()Lorg/springframework/http/HttpStatus;e
-getMessage()Uorg.springframework.web.server.ResponseStatusException#getMessage()Ljava/lang/String;Â
-T<init>(Lorg/springframework/http/HttpStatus;Ljava/lang/String;Ljava/lang/Throwable;)åorg.springframework.web.server.ResponseStatusException#<init>(Lorg/springframework/http/HttpStatus;Ljava/lang/String;Ljava/lang/Throwable;)V∫
-?<init>(Lorg/springframework/http/HttpStatus;Ljava/lang/String;)worg.springframework.web.server.ResponseStatusException#<init>(Lorg/springframework/http/HttpStatus;Ljava/lang/String;)Vc
-getReason()Torg.springframework.web.server.ResponseStatusException#getReason()Ljava/lang/String;‚
+license(Ljava/lang/String;)|springfox.documentation.builders.ApiInfoBuilder#license(Ljava/lang/String;)Lspringfox/documentation/builders/ApiInfoBuilder;‚
 >mx.com.gnp.plus.consultasinies.model.ConsultaSiniestrosRequestjava.lang.Objectjava.io.Serializableo
 getInsaneam()^mx.com.gnp.plus.consultasinies.model.ConsultaSiniestrosRequest#getInsaneam()Ljava/lang/String;o
 getCdnumpol()^mx.com.gnp.plus.consultasinies.model.ConsultaSiniestrosRequest#getCdnumpol()Ljava/lang/String;T
@@ -1288,9 +1265,29 @@ getFiler()Ggnp.ae.distribucion.AqCabeceraArquitectura#getFiler()Ljava/lang/Stri
 getVadireip()Jgnp.ae.distribucion.AqCabeceraArquitectura#getVadireip()Ljava/lang/String;l
 setCdaplic(Ljava/lang/String;)Jgnp.ae.distribucion.AqCabeceraArquitectura#setCdaplic(Ljava/lang/String;)VL
 setInonline(C):gnp.ae.distribucion.AqCabeceraArquitectura#setInonline(C)VH
-getIntraza()8gnp.ae.distribucion.AqCabeceraArquitectura#getIntraza()C‘
+getIntraza()8gnp.ae.distribucion.AqCabeceraArquitectura#getIntraza()Cö
+java.lang.RuntimeExceptionjava.lang.Exception0
+<init>()$java.lang.RuntimeException#<init>()VT
+<init>(Ljava/lang/String;)6java.lang.RuntimeException#<init>(Ljava/lang/String;)V~
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Kjava.lang.RuntimeException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)VÇ
+1<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)Mjava.lang.RuntimeException#<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)VZ
+<init>(Ljava/lang/Throwable;)9java.lang.RuntimeException#<init>(Ljava/lang/Throwable;)V‘
 =mx.com.gnp.plus.consultasinies.exception.InvalidNameExceptionjava.lang.RuntimeExceptionw
-<init>(Ljava/lang/String;)Ymx.com.gnp.plus.consultasinies.exception.InvalidNameException#<init>(Ljava/lang/String;)Vè
+<init>(Ljava/lang/String;)Ymx.com.gnp.plus.consultasinies.exception.InvalidNameException#<init>(Ljava/lang/String;)V˘
+/org.springframework.core.NestedRuntimeExceptionjava.lang.RuntimeExceptionu
+getMostSpecificCause()[org.springframework.core.NestedRuntimeException#getMostSpecificCause()Ljava/lang/Throwable;i
+<init>(Ljava/lang/String;)Korg.springframework.core.NestedRuntimeException#<init>(Ljava/lang/String;)Vì
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)`org.springframework.core.NestedRuntimeException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)Ve
+getRootCause()Sorg.springframework.core.NestedRuntimeException#getRootCause()Ljava/lang/Throwable;^
+getMessage()Norg.springframework.core.NestedRuntimeException#getMessage()Ljava/lang/String;k
+contains(Ljava/lang/Class;)Lorg.springframework.core.NestedRuntimeException#contains(Ljava/lang/Class;)ZÎ
+6org.springframework.web.server.ResponseStatusException/org.springframework.core.NestedRuntimeExceptionñ
+-<init>(Lorg/springframework/http/HttpStatus;)eorg.springframework.web.server.ResponseStatusException#<init>(Lorg/springframework/http/HttpStatus;)Vv
+getStatus()gorg.springframework.web.server.ResponseStatusException#getStatus()Lorg/springframework/http/HttpStatus;e
+getMessage()Uorg.springframework.web.server.ResponseStatusException#getMessage()Ljava/lang/String;Â
+T<init>(Lorg/springframework/http/HttpStatus;Ljava/lang/String;Ljava/lang/Throwable;)åorg.springframework.web.server.ResponseStatusException#<init>(Lorg/springframework/http/HttpStatus;Ljava/lang/String;Ljava/lang/Throwable;)V∫
+?<init>(Lorg/springframework/http/HttpStatus;Ljava/lang/String;)worg.springframework.web.server.ResponseStatusException#<init>(Lorg/springframework/http/HttpStatus;Ljava/lang/String;)Vc
+getReason()Torg.springframework.web.server.ResponseStatusException#getReason()Ljava/lang/String;è
 3mx.com.gnp.plus.consultasinies.config.SwaggerConfigjava.lang.ObjectI
 <init>()=mx.com.gnp.plus.consultasinies.config.SwaggerConfig#<init>()Vu
 
