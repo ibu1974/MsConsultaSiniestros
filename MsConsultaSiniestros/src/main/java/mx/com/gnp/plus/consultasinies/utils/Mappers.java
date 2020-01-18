@@ -68,7 +68,7 @@ public final class Mappers {
 		ConsultaSiniestrosResponse respuesta;
 		respuesta = new ConsultaSiniestrosResponse();
 		if (msgVta != null) {
-			int resul = Short.compare(ConstantesGenerales.ok, msgVta.getCderror());
+			int resul = Short.compare(ConstantesGenerales.OK, msgVta.getCderror());
 			if (resul == 0) {
 				for (int i=0;i<msgVta.getNuocurre();i++) {
 					respuesta.getEstrgres()[i].setCdnumpol(msgVta.getEstrgsib()[i].getCdnumpol());
