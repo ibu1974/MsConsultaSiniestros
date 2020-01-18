@@ -15,7 +15,7 @@ import mx.com.gnp.plus.consultasinies.exception.ExceptionEot;
 import mx.com.gnp.plus.consultasinies.utils.Utils;
 
 
-// TODO: Auto-generated Javadoc
+
 /**
  * The Class TransaccionInfoServiceImpl.
  */

@@ -2,7 +2,7 @@ package mx.com.gnp.plus.consultasinies.utils;
 
 import java.io.Serializable;
 
-// TODO: Auto-generated Javadoc
+
 /**
  * The Class ConstantesGenerales.
  */

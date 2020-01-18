@@ -7,26 +7,11 @@ public class ConsultaSiniestrosRequest implements Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	public String cdnumpol;
-	public String cdtipusu;
-	public String insaneam;
-	public int feocusin;
+	private String cdnumpol;
+	private String cdtipusu;
+	private String insaneam;
+	private int feocusin;
 
-
-
-
-
-	public ConsultaSiniestrosRequest()
-	{
-
-		cdnumpol = new String();
-
-		cdtipusu = new String();
-
-		insaneam = new String();
-
-
-	}
 
 
 	public String getCdnumpol() {

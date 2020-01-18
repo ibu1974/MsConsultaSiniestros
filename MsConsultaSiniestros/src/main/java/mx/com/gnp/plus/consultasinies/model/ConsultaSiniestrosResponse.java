@@ -8,10 +8,10 @@ public class ConsultaSiniestrosResponse extends ResponseSiniestros{
 	/**
 	 * 
 	 */
-	public short codigoError;
-	public String descripError;
+	private short codigoError;
+	private String descripError;
 	
-	public Ksirgres[] estrgres = new Ksirgres[25];
+	private Ksirgres[] estrgres = new Ksirgres[25];
 
 
 	public ConsultaSiniestrosResponse()

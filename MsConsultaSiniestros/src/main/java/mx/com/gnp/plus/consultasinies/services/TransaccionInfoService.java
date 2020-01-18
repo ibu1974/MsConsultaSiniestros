@@ -4,7 +4,7 @@ import gnp.si.servidor.Ksilil06;
 import gnp.si.servidor.Ksilvl06;
 import mx.com.gnp.plus.consultasinies.exception.ExceptionEot;
 
-// TODO: Auto-generated Javadoc
+
 /**
  * The Interface TransaccionInfoService.
  */
