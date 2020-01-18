@@ -1,0 +1,103 @@
+
+]mx.com.gnp.plus.consultasinies.Application#apiInfo()Lspringfox/documentation/service/ApiInfo;Ä
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaÄ Ä("1*≤(
+1Ä
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaÅ	 Å(ÓÎ
+Ä
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaÅ Å(5
+%0/springfox.documentation.builders.ApiInfoBuilder"/springfox.documentation.builders.ApiInfoBuilderÄ
+˝
+Ä
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaÅ	 Å(
+%1"9springfox.documentation.builders.ApiInfoBuilder#<init>()V*7
+5
+%0/springfox.documentation.builders.ApiInfoBuilderﬂ
+‹
+Ä
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaÅ$ Å(.
+%2java.lang.String"__id*9*7,
+*mx.com.gnp.plus.consultasinies.Application"
+titleß§
+Ä
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaÅ	 Å(/5
+%3/springfox.documentation.builders.ApiInfoBuilder"zspringfox.documentation.builders.ApiInfoBuilder#title(Ljava/lang/String;)Lspringfox/documentation/builders/ApiInfoBuilder;*7
+5
+%0/springfox.documentation.builders.ApiInfoBuilder*
+
+%2java.lang.String2title(Ljava/lang/String;)Â
+‚
+Ä
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaÅ< Å(L
+%4java.lang.String"__id*?*=,
+*mx.com.gnp.plus.consultasinies.Application"
+description¥±
+Ä
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaÅ	 Å(M5
+%5/springfox.documentation.builders.ApiInfoBuilder"Äspringfox.documentation.builders.ApiInfoBuilder#description(Ljava/lang/String;)Lspringfox/documentation/builders/ApiInfoBuilder;*7
+5
+%3/springfox.documentation.builders.ApiInfoBuilder*
+
+%4java.lang.String2description(Ljava/lang/String;)Î
+Ë
+Ä
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaÇ Ç(-
+%6java.lang.String"__id*E*C,
+*mx.com.gnp.plus.consultasinies.Application"
+termsOfServiceUrl¿Ω
+Ä
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaÅ	 Ç(.5
+%7/springfox.documentation.builders.ApiInfoBuilder"Üspringfox.documentation.builders.ApiInfoBuilder#termsOfServiceUrl(Ljava/lang/String;)Lspringfox/documentation/builders/ApiInfoBuilder;*7
+5
+%5/springfox.documentation.builders.ApiInfoBuilder*
+
+%6java.lang.String2%termsOfServiceUrl(Ljava/lang/String;)·
+ﬁ
+Ä
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaÇ7 Ç(C
+%8java.lang.String"__id*;*9,
+*mx.com.gnp.plus.consultasinies.Application"	
+license´®
+Ä
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaÅ	 Ç(D5
+%9/springfox.documentation.builders.ApiInfoBuilder"|springfox.documentation.builders.ApiInfoBuilder#license(Ljava/lang/String;)Lspringfox/documentation/builders/ApiInfoBuilder;*7
+5
+%7/springfox.documentation.builders.ApiInfoBuilder*
+
+%8java.lang.String2license(Ljava/lang/String;)Â
+‚
+Ä
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaÇP Ç(_
+%10java.lang.String"__id*>*<,
+*mx.com.gnp.plus.consultasinies.Application"
+
+licenseUrl≥∞
+Ä
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaÅ	 Ç(`6
+%11/springfox.documentation.builders.ApiInfoBuilder"springfox.documentation.builders.ApiInfoBuilder#licenseUrl(Ljava/lang/String;)Lspringfox/documentation/builders/ApiInfoBuilder;*7
+5
+%9/springfox.documentation.builders.ApiInfoBuilder*
+
+%10java.lang.String2licenseUrl(Ljava/lang/String;)‚
+ﬂ
+Ä
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaÉ É(
+%12java.lang.String"__id*;*9,
+*mx.com.gnp.plus.consultasinies.Application"	
+versionÆ´
+Ä
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaÅ	 É(6
+%13/springfox.documentation.builders.ApiInfoBuilder"|springfox.documentation.builders.ApiInfoBuilder#version(Ljava/lang/String;)Lspringfox/documentation/builders/ApiInfoBuilder;*8
+6
+%11/springfox.documentation.builders.ApiInfoBuilder*
+
+%12java.lang.String2version(Ljava/lang/String;)€ÿ
+Ä
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaÅ	 É(".
+%14'springfox.documentation.service.ApiInfo"`springfox.documentation.builders.ApiInfoBuilder#build()Lspringfox/documentation/service/ApiInfo;*8
+6
+%13/springfox.documentation.builders.ApiInfoBuilder2build()"µ
+Ä
+t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaÅ É(#0
+.
+%14'springfox.documentation.service.ApiInfoB.,
+*mx.com.gnp.plus.consultasinies.Application
