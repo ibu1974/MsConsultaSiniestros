@@ -1,6 +1,6 @@
 
 ¤mx.com.gnp.plus.consultasinies.utils.Mappers#consultaSiniestrosResponse(Lgnp/si/servidor/Ksilvl06;)Lmx/com/gnp/plus/consultasinies/model/ConsultaSiniestrosResponse;€
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaB* B(D"9*è;
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaB* B(D"9*†?
 2€
 v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaT T( øõ
 €
@@ -20,183 +20,195 @@ v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp
 v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaT T(9
 	msgError1java.lang.String"__id*
 
-%57java.lang.String¼
-¹
+%57java.lang.String’
 €
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaU U(&
-%58org.apache.logging.log4j.Logger"__id*
-""´±
-€
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaU U(+
-%59void":org.apache.logging.log4j.Logger#error(Ljava/lang/String;)V*(
-&
-%58org.apache.logging.log4j.Logger*
-ERROR EN RESPUESTA DE INFO2error(Ljava/lang/String;)¼
-¹
-€
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaV V(&
-%60org.apache.logging.log4j.Logger"__id*
-""µ²
-€
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaV V(
-%61void":org.apache.logging.log4j.Logger#error(Ljava/lang/String;)V*(
-&
-%60org.apache.logging.log4j.Logger*
-
-	msgError1java.lang.String2error(Ljava/lang/String;)¼
-¹
-€
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaW W(&
-%62org.apache.logging.log4j.Logger"__id*
-""’
-€
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaW W(.
-%63java.lang.String">gnp.ae.distribucion.AqMensajeVta#getDsarg1()Ljava/lang/String;*$
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaU# U(5
+%58java.lang.String">gnp.ae.distribucion.AqMensajeVta#getDsarg1()Ljava/lang/String;*$
 "
 msgVtagnp.si.servidor.Ksilvl062getDsarg1()Ó
 Ð
 €
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaW W(.
-%64java.lang.String"__concat*
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaU U(5
+%59java.lang.String"__concat*
 	DSDAREG: *
 
-%63java.lang.StringË
+%58java.lang.StringË
 È
 €
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaW W(4
-%65java.lang.String"__concat*
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaU U(;
+%60java.lang.String"__concat*
 
-%64java.lang.String*
+%59java.lang.String*
  ’
 €
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaX X(.
-%66java.lang.String">gnp.ae.distribucion.AqMensajeVta#getDsarg2()Ljava/lang/String;*$
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaV V(*
+%61java.lang.String">gnp.ae.distribucion.AqMensajeVta#getDsarg2()Ljava/lang/String;*$
 "
 msgVtagnp.si.servidor.Ksilvl062getDsarg2()ß
 Ü
 €
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaW X(.
-%67java.lang.String"__concat*
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaU V(*
+%62java.lang.String"__concat*
 
-%65java.lang.String*
+%60java.lang.String*
+
+%61java.lang.StringË
+È
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaU V(/
+%63java.lang.String"__concat*
+
+%62java.lang.String*
+ ’
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaW W($
+%64java.lang.String">gnp.ae.distribucion.AqMensajeVta#getDsarg3()Ljava/lang/String;*$
+"
+msgVtagnp.si.servidor.Ksilvl062getDsarg3()ß
+Ü
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaU W($
+%65java.lang.String"__concat*
+
+%63java.lang.String*
+
+%64java.lang.StringÆ
+Ã
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaU W(%
+	msgError2java.lang.String"__id*
+
+%65java.lang.String’
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaX; X(M
+%66java.lang.String">gnp.ae.distribucion.AqMensajeVta#getDsarg1()Ljava/lang/String;*$
+"
+msgVtagnp.si.servidor.Ksilvl062getDsarg1()å
+â
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaX X(M
+%67java.lang.String"__concat*
+Error en INFO, descripcion *
 
 %66java.lang.StringË
 È
 €
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaW X(3
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaX X(S
 %68java.lang.String"__concat*
 
 %67java.lang.String*
  ’
 €
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaY Y((
-%69java.lang.String">gnp.ae.distribucion.AqMensajeVta#getDsarg3()Ljava/lang/String;*$
-"
-msgVtagnp.si.servidor.Ksilvl062getDsarg3()ß
-Ü
-€
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaW Y((
-%70java.lang.String"__concat*
-
-%68java.lang.String*
-
-%69java.lang.String¯¬
-€
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaW Y()
-%71void":org.apache.logging.log4j.Logger#error(Ljava/lang/String;)V*(
-&
-%62org.apache.logging.log4j.Logger*
-
-%70java.lang.String2error(Ljava/lang/String;)’
-€
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java[& [(8
-%72java.lang.String">gnp.ae.distribucion.AqMensajeVta#getDsarg1()Ljava/lang/String;*$
-"
-msgVtagnp.si.servidor.Ksilvl062getDsarg1()å
-â
-€
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java[ [(8
-%73java.lang.String"__concat*
-Error en INFO, descripcion *
-
-%72java.lang.StringË
-È
-€
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java[ [(>
-%74java.lang.String"__concat*
-
-%73java.lang.String*
- ’
-€
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java\, \(>
-%75java.lang.String">gnp.ae.distribucion.AqMensajeVta#getDsarg2()Ljava/lang/String;*$
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaY Y(*
+%69java.lang.String">gnp.ae.distribucion.AqMensajeVta#getDsarg2()Ljava/lang/String;*$
 "
 msgVtagnp.si.servidor.Ksilvl062getDsarg2()ß
 Ü
 €
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java[ \(>
-%76java.lang.String"__concat*
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaX Y(*
+%70java.lang.String"__concat*
 
-%74java.lang.String*
+%68java.lang.String*
 
-%75java.lang.StringË
+%69java.lang.StringË
 È
 €
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java[ \(C
-%77java.lang.String"__concat*
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaX Y(/
+%71java.lang.String"__concat*
 
-%76java.lang.String*
+%70java.lang.String*
  ’
 €
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java]  ](2
-%78java.lang.String">gnp.ae.distribucion.AqMensajeVta#getDsarg3()Ljava/lang/String;*$
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaZ Z(*
+%72java.lang.String">gnp.ae.distribucion.AqMensajeVta#getDsarg3()Ljava/lang/String;*$
 "
 msgVtagnp.si.servidor.Ksilvl062getDsarg3()ß
 Ü
 €
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java[ ](2
-%79java.lang.String"__concat*
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaX Z(*
+%73java.lang.String"__concat*
 
-%77java.lang.String*
+%71java.lang.String*
 
-%78java.lang.StringÍ
+%72java.lang.StringÍ
 Ê
 €
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java[ ](:
-%80java.lang.String"__concat*
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaX Z(2
+%74java.lang.String"__concat*
 
-%79java.lang.String*
+%73java.lang.String*
  : øõ
 €
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java^, ^(?
-%81short".gnp.ae.distribucion.AqMensajeVta#getCderror()S*$
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java[ [(+
+%75short".gnp.ae.distribucion.AqMensajeVta#getCderror()S*$
 "
 msgVtagnp.si.servidor.Ksilvl062getCderror()Ô
 Ñ
 €
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java[ ^(?
-%82java.lang.String"__concat*
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaX [(+
+%76java.lang.String"__concat*
 
-%80java.lang.String*
+%74java.lang.String*
 
-%81shortÀ
+%75shortÆ
+Ã
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaX [(,
+	msgError3java.lang.String"__id*
+
+%76java.lang.String¼
+¹
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java] ](&
+%77org.apache.logging.log4j.Logger"__id*
+""´±
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java] ](+
+%78void":org.apache.logging.log4j.Logger#error(Ljava/lang/String;)V*(
+&
+%77org.apache.logging.log4j.Logger*
+ERROR EN RESPUESTA DE INFO2error(Ljava/lang/String;)¼
+¹
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java^ ^(&
+%79org.apache.logging.log4j.Logger"__id*
+""µ²
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java^ ^(
+%80void":org.apache.logging.log4j.Logger#error(Ljava/lang/String;)V*(
+&
+%79org.apache.logging.log4j.Logger*
+
+	msgError1java.lang.String2error(Ljava/lang/String;)¼
+¹
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java_ _(&
+%81org.apache.logging.log4j.Logger"__id*
+""µ²
+€
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java_ _(
+%82void":org.apache.logging.log4j.Logger#error(Ljava/lang/String;)V*(
+&
+%81org.apache.logging.log4j.Logger*
+
+	msgError2java.lang.String2error(Ljava/lang/String;)À
 ½
 €
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java_ _(*
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java`% `(;*
 %83#org.springframework.http.HttpStatus"__id*
 ""ûø
 €
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaZ Z(<
-%845mx.com.gnp.plus.consultasinies.exception.ExceptionEot"5mx.com.gnp.plus.consultasinies.exception.ExceptionEotŽ
-‹
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java` `(<
+%845mx.com.gnp.plus.consultasinies.exception.ExceptionEot"5mx.com.gnp.plus.consultasinies.exception.ExceptionEot”
+‘
 €
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javaZ
- _(
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.java`
+ `(<
 %85"vmx.com.gnp.plus.consultasinies.exception.ExceptionEot#<init>(Ljava/lang/String;Lorg/springframework/http/HttpStatus;)V*>
 <
-%845mx.com.gnp.plus.consultasinies.exception.ExceptionEot*
-
-%82java.lang.String*,
+%845mx.com.gnp.plus.consultasinies.exception.ExceptionEot*
+
+	msgError3java.lang.String*,
 *
 %83#org.springframework.http.HttpStatus*
 0*‹
@@ -584,12 +596,12 @@ E
 1* 
 0 "˜
 €
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javad d(
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javae e(
 implicit return*Ü
 1€
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javac	 c("Ó
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javad	 d("Ó
 €
-v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javac c(N
+v/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/utils/Mappers.javad d(N
 L
 	respuesta?mx.com.gnp.plus.consultasinies.model.ConsultaSiniestrosResponse:"
 msgVtagnp.si.servidor.Ksilvl06B0".

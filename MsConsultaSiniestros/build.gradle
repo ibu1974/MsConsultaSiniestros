@@ -59,9 +59,10 @@ ext {
 		'class'      : 100
 	]
 	coverageExclusions = [
-            'mx/com/gnp/service/Application.class',
-            'mx/com/gnp/service/controller/HttpExceptionHandler.class',
-			'mx/com/gnp/service/config/**'
+			'/mx/com/gnp/plus/consultasinies/utils/Mappers.java'
+            'mx/com/gnp/plus/consultasinies/Application.class',
+            'mx/com/gnp/plus/consultasinies/controller/HttpExceptionHandler.class',
+			'mx/com/gnp/plus/consultasinies/config/**'
 	]
 }
 
