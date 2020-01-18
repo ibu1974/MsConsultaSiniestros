@@ -25,7 +25,7 @@ import mx.com.gnp.plus.consultasinies.utils.*;
  *
  */
 @RestController
-@Slf4j
+
 public class AppController  implements ConsultaSiniestrosApi{
 	public static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AppController.class);
 

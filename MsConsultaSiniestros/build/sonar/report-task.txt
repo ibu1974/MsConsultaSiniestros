@@ -3,5 +3,5 @@ projectKey=ibu1974_MsConsultaSiniestros
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.4045
 dashboardUrl=https://sonarcloud.io/dashboard?id=ibu1974_MsConsultaSiniestros
-ceTaskId=AW-2b6a_k6K91Pv2gbI3
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AW-2b6a_k6K91Pv2gbI3
+ceTaskId=AW-2kxokaFt1sBKwOj5w
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AW-2kxokaFt1sBKwOj5w
