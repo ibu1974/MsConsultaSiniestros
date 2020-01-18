@@ -36,7 +36,7 @@ public class AppController  implements ConsultaSiniestrosApi{
 	/**
 
 	/**
-	 * Consulta los siniestros asociados a la p�liza
+	 * Consulta los siniestros asociados a la poliza
 	 *
 	 * @param request the request
 	 * @param bindingResult the binding result
