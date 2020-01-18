@@ -16,7 +16,6 @@ import org.springframework.validation.FieldError;
 import mx.com.gnp.plus.consultasinies.exception.ExceptionEot;
 
 
-// TODO: Auto-generated Javadoc
 /**
  * The Class Utils.
  */
@@ -59,7 +58,7 @@ public final class Utils {
 	 */
 	public static String getCause(final Exception ex) {
 		String trace = getStackTrace(ex);
-		trace =trace.substring(0, trace.indexOf("\n"));
+		trace =trace.substring(0, trace.indexOf('\n'));
 		return trace;
 	}
 	

@@ -11,10 +11,9 @@ import gnp.si.servidor.Ksilvl06;
 import mx.com.gnp.plus.consultasinies.exception.ExceptionEot;
 import mx.com.gnp.plus.consultasinies.model.ConsultaSiniestrosRequest;
 import mx.com.gnp.plus.consultasinies.model.ConsultaSiniestrosResponse;
-import mx.com.gnp.plus.consultasinies.utils.*;
 
 
-// TODO: Auto-generated Javadoc
+
 /**
  * The Class Mappers.
  */
@@ -23,11 +22,11 @@ public final class Mappers {
 	/** The Constant LOG. */
 	private static final Logger LOG = LogManager.getLogger(Mappers.class);
 	
-	private static final String idioma ="ES";
+	private static final String IDIOMA ="ES";
 	
 	/** Idioma de la aplicacion */ 
 
-	private static final String aplicacion ="AE";
+	private static final String APLICACION ="AE";
 	
 	
 	/**
@@ -42,7 +41,7 @@ public final class Mappers {
 	 * @param request the request
 	 * @return the ksilil06
 	 */
-	public static Ksilil06 consultaSiniestrosRequest(final ConsultaSiniestrosRequest msgEntrada) throws ExceptionEot{
+	public static Ksilil06 consultaSiniestrosRequest(final ConsultaSiniestrosRequest msgEntrada) {
 		Ksilil06 respuesta;
 		respuesta = new Ksilil06();
 		respuesta.setCdnumpol(msgEntrada.getCdnumpol());
@@ -82,9 +81,10 @@ public final class Mappers {
 				}
 				respuesta.setResponseCode(HttpStatus.OK);
 			} else {
+				String msgError1="CDERROR: " + (msgVta.getCderror());
 				LOG.error("ERROR EN RESPUESTA DE INFO");
-				LOG.error("Cderror: " + msgVta.getCderror());
-				LOG.error("Dsdareg: " + msgVta.getDsarg1() + " " + 
+				LOG.error(msgError1);
+				LOG.error("DSDAREG: " + msgVta.getDsarg1() + " " + 
 				                        msgVta.getDsarg2()+ " " + 
 						                msgVta.getDsarg3());
 				throw new ExceptionEot(
@@ -100,8 +100,8 @@ public final class Mappers {
 	}	
 	
     public static void complementaCabecera(final AqCabeceraArquitectura cabeceraArquitectura) {
-            cabeceraArquitectura.setCdidioma(idioma);
-            cabeceraArquitectura.setCdaplic(aplicacion);
+            cabeceraArquitectura.setCdidioma(IDIOMA);
+            cabeceraArquitectura.setCdaplic(APLICACION);
     }
 
 }
