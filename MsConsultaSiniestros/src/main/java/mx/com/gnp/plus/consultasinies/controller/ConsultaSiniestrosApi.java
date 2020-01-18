@@ -16,7 +16,7 @@ import mx.com.gnp.plus.consultasinies.utils.ConstantesGenerales;
 
 public interface ConsultaSiniestrosApi {
 	/**
-	 * Consulta los siniestros asociados a la póliza
+	 * Consulta los siniestros asociados a la poliza
 	 *
 	 * @param request the request
 	 * @param bindingResult the binding result
