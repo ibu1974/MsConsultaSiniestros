@@ -13,7 +13,6 @@ import mx.com.gnp.plus.consultasinies.model.ConsultaSiniestrosRequest;
 import mx.com.gnp.plus.consultasinies.model.ConsultaSiniestrosResponse;
 
 
-
 /**
  * The Class Mappers.
  */
@@ -22,11 +21,13 @@ public final class Mappers {
 	/** The Constant LOG. */
 	private static final Logger LOG = LogManager.getLogger(Mappers.class);
 	
-	private static final String IDIOMA ="ES";
-	
-	/** Idioma de la aplicacion */ 
+	/** Idioma de la aplicacion. */ 
 
-	private static final String APLICACION ="AE";
+	private static final String IDIOMA = "ES";
+	
+	/** La aplicacion. */ 
+
+	private static final String APLICACION = "AE";
 	
 	
 	/**
@@ -38,8 +39,8 @@ public final class Mappers {
 	/**
 	 * Creates the ksilil06.
 	 *
-	 * @param request the request
-	 * @return the ksilil06
+	 * @param msgEntrada el mensaje de a procesar
+	 * @return ksilil06 el mensaje de regreso
 	 */
 	public static Ksilil06 consultaSiniestrosRequest(final ConsultaSiniestrosRequest msgEntrada) {
 		Ksilil06 respuesta;
@@ -56,9 +57,8 @@ public final class Mappers {
 
 	/**
 	 * Creates the response consultar siniestros por poliza.
-	 *
-	 * @param Ksilvl06
-	 * @return the response consultar siniestros por poliza
+	 * @param msgVta el mensaje a procesar
+	 * @return respuesta el mapeo del mensaje procesado 
 	 * @throws ExceptionEot the exception eot
 	 */
 	
@@ -66,40 +66,40 @@ public final class Mappers {
 	public static ConsultaSiniestrosResponse consultaSiniestrosResponse(final Ksilvl06 msgVta) throws ExceptionEot {
 		ConsultaSiniestrosResponse respuesta;
 		respuesta = new ConsultaSiniestrosResponse();
-		if (msgVta != null) {
-			int resul = Short.compare(ConstantesGenerales.OK, msgVta.getCderror());
-			if (resul == 0) {
-				for (int i=0;i<msgVta.getNuocurre();i++) {
-					respuesta.getEstrgres()[i].setCdnumpol(msgVta.getEstrgsib()[i].getCdnumpol());
-					respuesta.getEstrgres()[i].setDntomseg(msgVta.getEstrgsib()[i].getDntomseg());
-					respuesta.getEstrgres()[i].setNoproduc(msgVta.getEstrgsib()[i].getNoproduc());
-					respuesta.getEstrgres()[i].setCdsinies(msgVta.getEstrgsib()[i].getCdsinies());
-					respuesta.getEstrgres()[i].setFeocusin(msgVta.getEstrgsib()[i].getFeocusin());
-					respuesta.getEstrgres()[i].setFecomuni(msgVta.getEstrgsib()[i].getFecomuni());
-					respuesta.getEstrgres()[i].setTcsitsin(msgVta.getEstrgsib()[i].getTcsitsin());
-					respuesta.getEstrgres()[i].setCdtipacc(msgVta.getEstrgsib()[i].getCdtipacc());
-				}
-				respuesta.setResponseCode(HttpStatus.OK);
-			} else {
-				String msgError1="CDERROR: " + (msgVta.getCderror());
-				String msgError2="DSDAREG: " + msgVta.getDsarg1() + " " + 
-                        msgVta.getDsarg2()+ " " + 
-		                msgVta.getDsarg3();
-				String msgError3=						"Error en INFO, descripcion " + msgVta.getDsarg1() + " " + 
-                        msgVta.getDsarg2()+ " " + 
-                        msgVta.getDsarg3() + " : " + 
-                        msgVta.getCderror();
-
-				LOG.error("ERROR EN RESPUESTA DE INFO");
-				LOG.error(msgError1);
-				LOG.error(msgError2);
-				throw new ExceptionEot(msgError3,HttpStatus.BAD_REQUEST);
+		int resul = Short.compare(ConstantesGenerales.OK, msgVta.getCderror());
+		if (resul == 0) {
+			for (int i = 0; i < msgVta.getNuocurre(); i++) {
+				respuesta.getEstrgres()[i].setCdnumpol(msgVta.getEstrgsib()[i].getCdnumpol());
+				respuesta.getEstrgres()[i].setDntomseg(msgVta.getEstrgsib()[i].getDntomseg());
+				respuesta.getEstrgres()[i].setNoproduc(msgVta.getEstrgsib()[i].getNoproduc());
+				respuesta.getEstrgres()[i].setCdsinies(msgVta.getEstrgsib()[i].getCdsinies());
+				respuesta.getEstrgres()[i].setFeocusin(msgVta.getEstrgsib()[i].getFeocusin());
+				respuesta.getEstrgres()[i].setFecomuni(msgVta.getEstrgsib()[i].getFecomuni());
+				respuesta.getEstrgres()[i].setTcsitsin(msgVta.getEstrgsib()[i].getTcsitsin());
+				respuesta.getEstrgres()[i].setCdtipacc(msgVta.getEstrgsib()[i].getCdtipacc());
 			}
+		} else {
+			LOG.error("ERROR EN RESPUESTA DE INFO");
+			LOG.error("Cderror: " + msgVta.getCderror());
+			LOG.error("Dsdareg: " + msgVta.getDsarg1() + " "  
+			                      +  msgVta.getDsarg2() + " "  
+					              +  msgVta.getDsarg3());
+			throw new ExceptionEot(
+					"Error en INFO, descripcion "   
+			          + msgVta.getDsarg1()  + " "
+			          + msgVta.getDsarg2()  + " "
+                      + msgVta.getDsarg3()  + " "
+			          + msgVta.getCderror() ,
+					HttpStatus.BAD_REQUEST);
 		}
 
 		return respuesta;
 	}	
-	
+/**
+ * Objetivo: Poner el idioma y la aplicacion asociada a la transaccion.
+ * @param cabeceraArquitectura cabecera a complementar
+ * @throws ExceptionEot the exception eot
+ */
     public static void complementaCabecera(final AqCabeceraArquitectura cabeceraArquitectura) {
             cabeceraArquitectura.setCdidioma(IDIOMA);
             cabeceraArquitectura.setCdaplic(APLICACION);

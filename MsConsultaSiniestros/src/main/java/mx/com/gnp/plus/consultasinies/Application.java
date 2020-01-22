@@ -24,14 +24,16 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
 
-/** 
+/**
  * @author jsetien
  *
  */
 @Slf4j
 @SpringBootApplication
 public class Application {
-	public static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(Application.class);
+	/** La variable para implementar el LOG. */
+
+	public static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger(Application.class);
 	/** The group name. */
 	@Value("${group.name}")
 	private String groupName;
@@ -68,6 +70,10 @@ public class Application {
 	@Autowired
 	private Environment env;
 
+	/***********************************************************************************************
+	* Objetivo :Inicializa los valores de las varibles de entorno antes  de ejecutar la
+	* aplicacion.
+	***********************************************************************************************/
 	
 	@PostConstruct
 	public final void init() {
@@ -89,7 +95,7 @@ public class Application {
  * @return the spring application builder
  */
 @SuppressWarnings("checkstyle:designforextension")
-protected SpringApplicationBuilder configure(final SpringApplicationBuilder builder) {
+protected final SpringApplicationBuilder configure(final SpringApplicationBuilder builder) {
 	return builder.sources(Application.class);
 }
 
@@ -97,11 +103,11 @@ protected SpringApplicationBuilder configure(final SpringApplicationBuilder buil
 	
 		
 	/**
-	 * @param args Esta aplicación no requiere de parámetros al inicializar.
+	 * @param args Esta aplicacion no requiere de parametros al inicializar.
 	 */
 	public static void main(final String[] args) {
 		SpringApplication.run(Application.class, args);
-		log.info("Java microservice inicializado correctamente");
+		LOG.info("Java microservice inicializado correctamente");
 	}
 	
 	@Override
@@ -115,7 +121,7 @@ protected SpringApplicationBuilder configure(final SpringApplicationBuilder buil
 	 */
 	@SuppressWarnings("checkstyle:designforextension")
 	@Bean
-	public Docket newsApi() {
+	public  Docket newsApi() {
 		return new Docket(DocumentationType.SWAGGER_2).groupName(this.groupName).apiInfo(this.apiInfo()).select()
 				.paths(regex(this.regex)).build();
 	}

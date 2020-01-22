@@ -26,10 +26,10 @@ public class TransaccionInfoServiceImpl  implements TransaccionInfoService {
 	private static final Logger LOG = LogManager.getLogger(TransaccionInfoServiceImpl.class);
 	
 	/**
-	 * Call Ksilml06 
+	 * Call Ksilml06. 
 	 *
 	 * @param mensajeIda the mensaje ida
-	 * @return the Ksilvl06 3
+	 * @return the Ksilvl06 
 	 * @throws ExceptionEot the exception eot
 	 */
 	@Override
@@ -37,13 +37,11 @@ public class TransaccionInfoServiceImpl  implements TransaccionInfoService {
 		ConsultaSiniestrosStub servidor = new ConsultaSiniestrosStub();
 		Ksilvl06 resultado;
 		LOG.info("llamando callKsilml06");
-
 		try {
 			resultado = servidor.Ksilml06(mensajeIda);
 		} catch (Exception e) {
 			LOG.error(Utils.getStackTrace(e));
 			throw new ExceptionEot(Utils.getCause(e), HttpStatus.INTERNAL_SERVER_ERROR);
-
 		}
 		return resultado;
 	}

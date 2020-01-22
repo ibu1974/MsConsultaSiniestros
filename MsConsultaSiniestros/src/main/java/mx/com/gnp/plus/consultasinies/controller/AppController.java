@@ -1,12 +1,14 @@
 package mx.com.gnp.plus.consultasinies.controller;
 
 
+
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.HttpStatus;
-import org.springframework.validation.BindingResult;
+
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,7 +18,8 @@ import mx.com.gnp.plus.consultasinies.exception.ExceptionEot;
 import mx.com.gnp.plus.consultasinies.model.ConsultaSiniestrosRequest;
 import mx.com.gnp.plus.consultasinies.model.ConsultaSiniestrosResponse;
 import mx.com.gnp.plus.consultasinies.services.TransaccionInfoService;
-import mx.com.gnp.plus.consultasinies.utils.*;
+import mx.com.gnp.plus.consultasinies.utils.Mappers;
+
 
 /**
  * Clase controller para aplicación microservicio java.
@@ -25,9 +28,13 @@ import mx.com.gnp.plus.consultasinies.utils.*;
  *
  */
 @RestController
+@Slf4j
 
-public class AppController  implements ConsultaSiniestrosApi{
-	public static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(AppController.class);
+public class AppController  implements ConsultaSiniestrosApi {
+
+	/** La variable para implementar el LOG. */
+
+	public static final org.slf4j.Logger LOG = org.slf4j.LoggerFactory.getLogger(AppController.class);
 
 	/** The service. */
 	@Autowired
@@ -36,7 +43,7 @@ public class AppController  implements ConsultaSiniestrosApi{
 	/**
 
 	/**
-	 * Consulta los siniestros asociados a la polizas
+	 * Consulta los siniestros asociados a la poliza.
 	 *
 	 * @param request the request
 	 * @param bindingResult the binding result
@@ -46,17 +53,16 @@ public class AppController  implements ConsultaSiniestrosApi{
 	
 @Override
 	public final ResponseEntity<ConsultaSiniestrosResponse> consultaSiniestrosporPoliza(
-			@Valid @ModelAttribute final ConsultaSiniestrosRequest request, final BindingResult bindingResult) throws ExceptionEot {
-		if (bindingResult.hasErrors()) {
-			throw Utils.createExcepcion(Utils.getMessages(bindingResult.getFieldErrors()), HttpStatus.BAD_REQUEST);
-		}
-			Ksilvl06 Ksilvl06 = service.callKsilml06(Mappers.consultaSiniestrosRequest(request));
+			@Valid @ModelAttribute final ConsultaSiniestrosRequest request) throws ExceptionEot {  
+
+			Ksilvl06 respuesta = service.callKsilml06(Mappers.consultaSiniestrosRequest(request));
 			
-			ConsultaSiniestrosResponse response = Mappers.consultaSiniestrosResponse(Ksilvl06);
+			ConsultaSiniestrosResponse response = Mappers.consultaSiniestrosResponse(respuesta);
 			
-			return new ResponseEntity<>(response, response.getResponseCodeStatus());
+			return new ResponseEntity<>(response, HttpStatus.OK);
 		
 	}	
+
 
 	
 }

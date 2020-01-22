@@ -1,16 +1,0 @@
-
-tmx.com.gnp.plus.consultasinies.model.ResponseSiniestros#getResponseCodeStatus()Lorg/springframework/http/HttpStatus;å
-Å/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/model/ResponseSiniestros.java (."1*Ê
-1å
-Å/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/model/ResponseSiniestros.java	 (í
-è
-å
-Å/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/model/ResponseSiniestros.java	 ()
-%0#org.springframework.http.HttpStatus"__id*M*K9
-7mx.com.gnp.plus.consultasinies.model.ResponseSiniestros"
-responseCode"º
-å
-Å/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/model/ResponseSiniestros.java (+
-)
-%0#org.springframework.http.HttpStatusB;9
-7mx.com.gnp.plus.consultasinies.model.ResponseSiniestros

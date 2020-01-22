@@ -8,6 +8,7 @@ import mx.com.gnp.plus.consultasinies.exception.ExceptionEot;
 /**
  * The Interface TransaccionInfoService.
  */
+@FunctionalInterface
 public interface TransaccionInfoService {
 	
 	/**

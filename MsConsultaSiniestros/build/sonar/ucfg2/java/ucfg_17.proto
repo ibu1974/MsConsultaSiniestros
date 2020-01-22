@@ -1,81 +1,0 @@
-
-gmx.com.gnp.plus.consultasinies.Application#newsApi()Lspringfox/documentation/spring/web/plugins/Docket;~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javav v("1*ˆ#
-1~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaw w(%Æ
-Ã
-~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaw w(/3
-%0-springfox.documentation.spi.DocumentationType"__id*
-""ïì
-~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaw w(7
-%11springfox.documentation.spring.web.plugins.Docket"1springfox.documentation.spring.web.plugins.Docketç
-ä
-~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaw	 w(0
-%2"jspringfox.documentation.spring.web.plugins.Docket#<init>(Lspringfox/documentation/spi/DocumentationType;)V*9
-7
-%11springfox.documentation.spring.web.plugins.Docket*5
-3
-%0-springfox.documentation.spi.DocumentationTypeà
-Ý
-~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaw; w(I
-%3java.lang.String"__id*=*;,
-*mx.com.gnp.plus.consultasinies.Application"
-	groupNameµ²
-~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaw	 w(J7
-%41springfox.documentation.spring.web.plugins.Docket"‚springfox.documentation.spring.web.plugins.Docket#groupName(Ljava/lang/String;)Lspringfox/documentation/spring/web/plugins/Docket;*9
-7
-%11springfox.documentation.spring.web.plugins.Docket*
-
-%3java.lang.String2groupName(Ljava/lang/String;)Á
-¾
-~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javawS w(a-
-%5'springfox.documentation.service.ApiInfo"]mx.com.gnp.plus.consultasinies.Application#apiInfo()Lspringfox/documentation/service/ApiInfo;*.,
-*mx.com.gnp.plus.consultasinies.Applicationöó
-~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaw	 w(b7
-%61springfox.documentation.spring.web.plugins.Docket"—springfox.documentation.spring.web.plugins.Docket#apiInfo(Lspringfox/documentation/service/ApiInfo;)Lspringfox/documentation/spring/web/plugins/Docket;*9
-7
-%41springfox.documentation.spring.web.plugins.Docket*/
--
-%5'springfox.documentation.service.ApiInfo22apiInfo(Lspringfox/documentation/service/ApiInfo;)ˆ…
-~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaw	 w(kC
-%7=springfox.documentation.spring.web.plugins.ApiSelectorBuilder"yspringfox.documentation.spring.web.plugins.Docket#select()Lspringfox/documentation/spring/web/plugins/ApiSelectorBuilder;*9
-7
-%61springfox.documentation.spring.web.plugins.Docket2select()Ü
-Ù
-~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javax x(
-%8java.lang.String"__id*9*7,
-*mx.com.gnp.plus.consultasinies.Application"
-regexÀ
-½
-~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javax x(&
-%9 com.google.common.base.Predicate"jspringfox.documentation.builders.PathSelectors#regex(Ljava/lang/String;)Lcom/google/common/base/Predicate;*"
-	!Unknown!*
-
-%8java.lang.StringŽ‹
-~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaw	 x(D
-%10=springfox.documentation.spring.web.plugins.ApiSelectorBuilder"¦springfox.documentation.spring.web.plugins.ApiSelectorBuilder#paths(Lcom/google/common/base/Predicate;)Lspringfox/documentation/spring/web/plugins/ApiSelectorBuilder;*E
-C
-%7=springfox.documentation.spring.web.plugins.ApiSelectorBuilder*(
-&
-%9 com.google.common.base.Predicate2)paths(Lcom/google/common/base/Predicate;)ˆ…
-~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaw	 x(%8
-%111springfox.documentation.spring.web.plugins.Docket"xspringfox.documentation.spring.web.plugins.ApiSelectorBuilder#build()Lspringfox/documentation/spring/web/plugins/Docket;*F
-D
-%10=springfox.documentation.spring.web.plugins.ApiSelectorBuilder2build()"¼
-~
-t/home/israel/MsConsultaSiniestros/MsConsultaSiniestros/src/main/java/mx/com/gnp/plus/consultasinies/Application.javaw x(&:
-8
-%111springfox.documentation.spring.web.plugins.DocketB.,
-*mx.com.gnp.plus.consultasinies.Application

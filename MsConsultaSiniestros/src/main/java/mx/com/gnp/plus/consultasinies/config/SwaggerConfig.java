@@ -34,7 +34,7 @@ public class SwaggerConfig {
      * @return Constructor de la interfaz primaria SWAGGER.
      */
     @Bean
-    public Docket productApi() {
+    public  Docket productApi() {
         return new Docket(DocumentationType.SWAGGER_2).select()
                 .apis(RequestHandlerSelectors.basePackage("mx.com.gnp.service.controller")).build()
                 .apiInfo(metadata());

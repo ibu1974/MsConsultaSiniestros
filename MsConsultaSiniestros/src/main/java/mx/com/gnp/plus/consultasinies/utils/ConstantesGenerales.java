@@ -104,7 +104,7 @@ public final class ConstantesGenerales implements Serializable {
 	/** The Constant DIECIOCHO. */
 	public static final int DIECIOCHO = 18;
 
-	/** The Constant ok */
+	/** The Constant OK. */
 	public static final short OK = 0;
 	
 	/**
